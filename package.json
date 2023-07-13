@@ -4,8 +4,7 @@
   "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -15,8 +14,5 @@
     "express": "^4.17.1",
     "mongoose": "^7.3.1"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^1.14.9"
-  }
+  "license": "MIT"
 }

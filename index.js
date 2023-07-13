@@ -68,7 +68,7 @@ app.get('/', function(req, res) {
 });
 
 // Your first API endpoint
-app.post('/api/shorturl', bodyparser.urlencoded(), async (req, res) => {
+app.post('/api/shorturl', bodyparser.urlencoded({ extended: true}), async (req, res) => {
 
 
   try {
